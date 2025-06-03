@@ -1,0 +1,9 @@
+CREATE DATABASE poultry_db;
+USE poultry_db;
+
+CREATE TABLE poultry (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    type VARCHAR(255),
+    quantity INT,
+    date_added DATE
+);
